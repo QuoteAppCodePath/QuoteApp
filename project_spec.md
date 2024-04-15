@@ -1,4 +1,4 @@
-##🧐 Learning Quotes App
+## 🧐 Learning Quotes App
 
 Mobile:
 Advantages: Simple app primarily focused on displaying information, which is well-suited for mobile devices. Low on technical complexity and easy to design for small screens.
@@ -41,3 +41,13 @@ Swipe left or right to view past or next quotes (if available for that day).
 - Favorites: Heart icon to favorite a quote, which then gets saved to the user’s favorite list accessible via a menu.
 - Sharing: Share button opens the native share sheet of the device to share the quote via different apps.
 - Settings and Customization (Optional): Access through a gear icon on the main screen. Options to change app theme, manage notifications, and review the questionnaire answers.
+
+
+## Main Menu:
+
+<img src='http://i.imgur.com/VU0qKd7.png' title='Video Demo' width='' alt='Video Demo' />
+
+
+## Questionnare:
+
+<img src='http://i.imgur.com/eToNFC3.png' title='Video Demo' width='' alt='Video Demo' />

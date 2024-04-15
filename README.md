@@ -44,5 +44,4 @@ The following EXTRA features are implemented:
 - [ ] List anything else that you added to improve your submission!
 
 ## Notes
-
-Here's a place for any other notes on this milestone!
+We finally arrived into an idea for our APP, we will start the app next week!⚒️📱

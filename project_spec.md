@@ -22,6 +22,13 @@ An MVP could simply rotate a daily quote with options to share and save favorite
 
 🎯 A. Describe required and optional features:
 
+Required Features:
+- Home Screen
+- Categories concerning the spectrum of human emotions
+- Cards with quotes employing the RecyclerView
+
+Stretch Features:
+
 - User Onboarding: Introduce the app's purpose and features upon first launch.
 - Questionnaire: Ask users a series of questions to determine their interests and preferences related to quotes about learning, studying, and intellectual curiosity.
 - Daily Quote Display: Show a new quote daily based on the user's preferences.

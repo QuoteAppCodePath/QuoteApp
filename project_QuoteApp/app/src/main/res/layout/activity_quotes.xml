@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Quotes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <!-- Quotes Container -->
+    <LinearLayout
+        android:id="@+id/quotesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/headerTitle"
+        android:padding="16dp">
+
+        <!-- Individual Quote -->
+        <!-- Repeat this structure for each quote -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_background"
+            android:text="“Be yourself; everyone else is already taken.” - Oscar Wilde"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="italic"
+            android:textSize="18sp" />
+        <!-- End of Individual Quote -->
+
+        <!-- Add more quotes here -->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

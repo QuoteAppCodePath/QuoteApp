@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+    <!-- Header Section -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wisdom Whisperer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💡Choose Your Category"
+        android:textColor="#DDDDDD"
+        android:layout_below="@id/tvHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Card Section -->
+    <LinearLayout
+        android:id="@+id/cardsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp">
+
+        <!-- Individual Card -->
+        <!-- Repeat this structure for each card -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_background"
+            android:padding="16dp">
+            <!-- Card Image -->
+            <ImageView
+                android:id="@+id/cardImage"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mood" /> <!-- Replace with your image reference -->
+            <!-- Card Title -->
+            <TextView
+                android:id="@+id/cardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardImage"
+                android:text="Join a party!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+            <!-- Card Description -->
+            <TextView
+                android:id="@+id/cardDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardTitle"
+                android:text="Get together with a local happening cooking parties!"
+                android:textColor="#BBBBBB"
+                android:layout_marginTop="4dp"/>
+        </RelativeLayout>
+        <!-- End of Individual Card -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_background"
+            android:padding="16dp">
+            <!-- Card Image -->
+            <ImageView
+                android:id="@+id/cardImage2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mood" /> <!-- Replace with your image reference -->
+            <!-- Card Title -->
+            <TextView
+                android:id="@+id/cardTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardImage2"
+                android:text="Join a party!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+            <!-- Card Description -->
+            <TextView
+                android:id="@+id/cardDesc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardTitle2"
+                android:text="Get together with a local happening cooking parties!"
+                android:textColor="#BBBBBB"
+                android:layout_marginTop="4dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_background"
+            android:padding="16dp">
+            <!-- Card Image -->
+            <ImageView
+                android:id="@+id/cardImage3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mood" /> <!-- Replace with your image reference -->
+            <!-- Card Title -->
+            <TextView
+                android:id="@+id/cardTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardImage3"
+                android:text="Join a party!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+            <!-- Card Description -->
+            <TextView
+                android:id="@+id/cardDesc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardTitle3"
+                android:text="Get together with a local happening cooking parties!"
+                android:textColor="#BBBBBB"
+                android:layout_marginTop="4dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

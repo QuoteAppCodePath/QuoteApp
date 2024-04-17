@@ -1,8 +1,14 @@
 ## 🧐 Learning Quotes App
 
+## App Overview
+
+### Description 
+
+**An app where the user selects quotes depending on the wisdom they require. This can be about the importance and value of learning, studying, intellectual curiosity, etc., and should come from philosophers and thinkers.**
+
 Mobile:
 Advantages: Simple app primarily focused on displaying information, which is well-suited for mobile devices. Low on technical complexity and easy to design for small screens.
-Challenges: Limited interaction might not fully leverage mobile hardware capabilities like sensors, camera, etc.
+Challenges: Limited interaction might not fully leverage mobile hardware capabilities like sensors, cameras, etc.
 
 Story:
 The app promotes intellectual growth and daily inspiration through quotes on learning and curiosity from philosophers and thinkers, appealing to students, educators, and lifelong learners.
@@ -21,6 +27,13 @@ An MVP could simply rotate a daily quote with options to share and save favorite
 ## Product Spec
 
 🎯 A. Describe required and optional features:
+
+Required Features:
+- Home Screen
+- Categories concerning the spectrum of human emotions
+- Cards with quotes employing the RecyclerView
+
+Stretch Features:
 
 - User Onboarding: Introduce the app's purpose and features upon first launch.
 - Questionnaire: Ask users a series of questions to determine their interests and preferences related to quotes about learning, studying, and intellectual curiosity.
